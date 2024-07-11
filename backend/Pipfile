@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.7"
+djangorestframework = "==3.14.0"
+markdown = "==3.5.1"
+django-filter = "*"
+pillow = "*"
+djangorestframework-simplejwt = {version = "==5.3.1", extras = ["crypto"]}
+django-phonenumber-field = "*"
+phonenumbers = "*"
+requests = "==2.31.0"
+stripe = "*"
+twilio = "*"
+python-dotenv = "*"
+
+[dev-packages]
+flake8 = "==6.1.0"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.6"

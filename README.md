@@ -240,3 +240,5 @@ For setting up your local database to work properly, run the following commands:
 - Go to `localhost:8000/admin` to access the Django Admin where you can manage models in the database.
 - Your simulator should be able to connect through localhost, but to run with a real iOS device, you will need to run:
   - `python manage.py runserver 0.0.0.0:8000` and edit `api.js` to point to your IP instead of localhost.
+
+(Copy from GaTech Github)
